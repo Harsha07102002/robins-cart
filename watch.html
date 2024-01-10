@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Robin's Cart</title>
+  <link rel="shortcut icon" href="img/cart.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css">
+  <style>
+    
+    a{
+        font-weight: bolder;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+    #base:hover{
+        text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a href='index.html' class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <img src="img/cart.png" href='index.html' height="35px" width="35px">
+            <span class="ml-3 text-xl"><h1 id='base'><b>Robin's Cart</b></h1></span>
+          </a>
+          <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+            <div class="dropdown">
+                <button class="dropbtn"><a class="mr-5 hover:text-gray-900 ">MEN</a></button>
+                <div class="dropdown-content">
+                  <a href="men/shirts.html">Shirts</a>
+                  <a href="men/blazer.html">Blazers</a>
+                  <a href="men/tshirt.html">T-Shirts</a>
+                  <a href="men/shoes.html">Shoes</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn"><a class="mr-5 hover:text-gray-900 ">WOMEN</a></button>
+                <div class="dropdown-content">
+                  <a href="/women/dr&fr.html">Dress&Frocks</a>
+                  <a href="/women/ear.html">Earrings</a>
+                  <a href="/women/neck.html">Necklace</a>
+                  <a href="/women/make.html">Makeup Kit</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn"><a class="mr-5 hover:text-gray-900 ">KIDS</a></button>
+                <div class="dropdown-content">
+                  <a href="/kids/shi.html">Shirts</a>
+                  <a href="/kids/jea.html">Jeans</a>
+                  <a href="/kids/tsh.html">T-Shirts</a>
+                  <a href="/kids/act.html">Activity Toys</a>
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="dropbtn"><a class="mr-5 hover:text-gray-900 ">HOME&LIVING</a></button>
+                <div class="dropdown-content">
+                  <a href="/home&living/tow.html">Towels</a>
+                  <a href="/home&living/bed.html">Bed Covers</a>
+                  <a href="/home&living/doo.html">Door Mats</a>
+                  <a href="/home&living/bla.html">Blankets</a>
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="dropbtn"><a class="mr-5 hover:text-gray-900 ">BEAUTY</a></button>
+                <div class="dropdown-content">
+                  <a href="/beauty/lip.html">Lipstick</a>
+                  <a href="/beauty/eye.html">Eyeshadow</a>
+                  <a href="/beauty/nail.html">Nail Polish</a>
+                  <a href="/beauty/body.html">Body Lotion</a>
+                </div>
+            </div>
+              
+      </nav>
+          <div id="d3" class="relative text-gray-600">
+            <input type="search" name="serch" placeholder="Enter the product" class="bg-white h-10 px-5 pr-10 rounded-full text-sm focus:outline-none">
+            <button type="submit" class="absolute right-0 top-0 mt-3 mr-4">
+              <svg class="h-4 w-4 fill-current" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve" width="512px" height="512px">
+                <path d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23  s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92  c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17  s-17-7.626-17-17S14.61,6,23.984,6z"/>
+              </svg>
+            </button>
+          </div>
+          <div id="d1">
+            <img src="img/prof.png" height="35px" width="35px">
+            <p><font size="1.75px"><b><center>Profile</center></b></font></p>
+          </div><br>
+          <div id="d2">
+            <img src="img/bag.png" height="35px" width="35px">
+            <p><font size="1.75px"><b><center>Bag</center></b></font></p>
+          </div>
+          
+        </div>
+      </header>
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-wrap -m-4">
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="ecommerce" id="bla" class="object-cover object-center w-full h-full block" src="/img/wat1.jpg">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">The Catalyzer</h2>
+                <p class="mt-1">$16.00</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="ecommerce" id="bla" class="object-cover object-center w-full h-full block" src="/img/wat2.jpg">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">Shooting Stars</h2>
+                <p class="mt-1">$21.15</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="ecommerce" id="bla" class="object-cover object-center w-full h-full block" src="/img/wat3.jpg">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">Neptune</h2>
+                <p class="mt-1">$12.00</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="ecommerce" id="bla" class="object-cover object-center w-full h-full block" src="/img/wat4.jpg">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">The 400 Blows</h2>
+                <p class="mt-1">$18.40</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="ecommerce" id="bla" class="object-cover object-center w-full h-full block" src="/img/wat5.jpg">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">The Catalyzer</h2>
+                <p class="mt-1">$16.00</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="ecommerce" id="bla" class="object-cover object-center w-full h-full block" src="/img/wat6.jpg">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">Shooting Stars</h2>
+                <p class="mt-1">$21.15</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="ecommerce" id="bla" class="object-cover object-center w-full h-full block" src="/img/wat7.jpg">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">Neptune</h2>
+                <p class="mt-1">$12.00</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="ecommerce" id="bla" class="object-cover object-center w-full h-full block" src="/img/wat8.jpg">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">The 400 Blows</h2>
+                <p class="mt-1">$18.40</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+</body>
+</html>
